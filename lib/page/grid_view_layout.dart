@@ -12,10 +12,10 @@ class GridViewLayout extends StatelessWidget {
 
   Widget buildGrid() {
     return new GridView.extent(
-      maxCrossAxisExtent: 150.0,
-      padding: EdgeInsets.all(4.0),
-      crossAxisSpacing: 4.0,
-      mainAxisSpacing: 4.0,
+      maxCrossAxisExtent: 100.0,
+      padding: EdgeInsets.all(10.0),
+      crossAxisSpacing: 10.0,
+      mainAxisSpacing: 1.0,
       children: _buildGridTileList(4),);
   }
 

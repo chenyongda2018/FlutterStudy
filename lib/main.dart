@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_flutter/home.dart';
+import 'package:test_flutter/page/card_layout.dart';
 import 'package:test_flutter/page/container_layout.dart';
 import 'package:test_flutter/page/grid_view_layout.dart';
 import 'package:test_flutter/page/list_view_layout.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
         "GridView" : (context)=> new GridViewLayout(),
         "ListView" : (context)=> new ListViewLayout(),
         "Stack" : (context)=> new StackLayout(),
+        "Card" : (context)=> new CardLayout(),
       },
     );
   }

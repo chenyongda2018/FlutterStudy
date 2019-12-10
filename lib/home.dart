@@ -76,6 +76,7 @@ class MyHome extends StatelessWidget {
           buildButtonColumn(Icons.near_me, 'GridView'),
           buildButtonColumn(Icons.share, 'ListView'),
           buildButtonColumn(Icons.account_box, 'Stack'),
+          buildButtonColumn(Icons.ac_unit, 'Card'),
         ],
       ),
     );
