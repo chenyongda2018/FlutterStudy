@@ -18,6 +18,7 @@ class GridViewLayout extends StatelessWidget {
       mainAxisSpacing: 4.0,
       children: _buildGridTileList(4),);
   }
+
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
