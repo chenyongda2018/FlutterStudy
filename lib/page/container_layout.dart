@@ -84,7 +84,6 @@ class ContainerLayout extends StatelessWidget {
       ),
       body: Center(
         child: galleryContainer,
-
       ),
     );
   }
