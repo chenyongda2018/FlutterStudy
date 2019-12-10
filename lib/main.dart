@@ -3,6 +3,7 @@ import 'package:test_flutter/home.dart';
 import 'package:test_flutter/page/container_layout.dart';
 import 'package:test_flutter/page/grid_view_layout.dart';
 import 'package:test_flutter/page/list_view_layout.dart';
+import 'package:test_flutter/page/stack_layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
         "Container" : (context)=> new ContainerLayout(),
         "GridView" : (context)=> new GridViewLayout(),
         "ListView" : (context)=> new ListViewLayout(),
+        "Stack" : (context)=> new StackLayout(),
       },
     );
   }
