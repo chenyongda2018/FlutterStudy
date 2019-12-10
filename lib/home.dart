@@ -1,6 +1,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:test_flutter/widget/favorite_widget.dart';
 
 class MyHome extends StatelessWidget {
   @override
@@ -32,11 +33,7 @@ class MyHome extends StatelessWidget {
                   )
                 ]),
           ),
-          new Icon(
-            Icons.star,
-            color: Colors.red,
-          ),
-          new Text('41'),
+          new FavoriteWidget(),
         ],
       ),
     );
